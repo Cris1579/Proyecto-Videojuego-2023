@@ -45,6 +45,7 @@ while True:
             elif event.key == pygame.K_DOWN:
                 speed_y = 0
     screen.fill(BLANCO)
+    #Para otras teclas, hay un documento con los nombres de las teclas, se pide o se busca por cuenta propia
 
     #Movimiento
     coord_x += speed_x

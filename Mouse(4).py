@@ -14,7 +14,9 @@ size = (800,500)
 screen = pygame.display.set_mode(size)
 reloj = pygame.time.Clock()
 
-pygame.mouse.set_visible(1) # 1 = visible, 0 = invisible
+# pygame.mouse.set_visible(1)
+# Esta linea nos permite modificar si queremos ver o no el puntero
+# 1 = visible, 0 = invisible
 
 while True:
     for event in pygame.event.get():

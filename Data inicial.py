@@ -2,7 +2,7 @@
 import pygame, sys
 pygame.init() #Con este comando se inicia la lib pygame
 
-size = (800,500) #Tupla (Lista que no se puede modificar), tamaño de la ventana
+size = (800,300) #Tupla (Lista que no se puede modificar), tamaño de la ventana (ancho,alto)
 
 #Crear ventana
 screen = pygame.display.set_mode(size)

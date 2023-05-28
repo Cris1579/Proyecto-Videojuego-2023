@@ -8,10 +8,11 @@ VERDE = (0,255,0)
 ROJO = (255,0,0)
 AZUL =  (0,0,255)
 
-# Color de fondo
+# Color de fondo(Rellenar la ventana de un color)
 # screen.fill(BLANCO)
 
 ###------ Zona de dibujo(Figuras básicas)
+#Para todos siempre se coloca (Variable pantalla, Color)
 
 # Dibujar una linea
 # pygame.draw.line(screen,VERDE,[0,100],[100,100],15) # [Pos inicial],[Pos final],Grosor

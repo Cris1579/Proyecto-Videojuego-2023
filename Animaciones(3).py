@@ -44,5 +44,5 @@ while True:
     pygame.draw.rect(screen,ROJO,(cord_x,cord_y,80,80))
 
     ###--- Zona de dibujo
-    reloj.tick(60)
+    reloj.tick(60) #Cambiar si deseas verlo más lento, menos FPS
     pygame.display.flip()

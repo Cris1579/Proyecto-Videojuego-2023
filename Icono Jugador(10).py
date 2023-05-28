@@ -1,3 +1,4 @@
+#Mover imágenes
 import pygame, sys
 pygame.init()
 
