@@ -36,7 +36,7 @@ def naveLEFT(surface,x,y):
     pygame.draw.rect(window,yellow,(x,y,60,60))
     pygame.draw.rect(window,black,(x,y,30,15))
     pygame.draw.rect(window,black,(x,y+45,30,15))
-direction="LEFT"    #Dirección inicial de la nave, como aparece al iniciar este archivo
+direction="UP"    #Dirección inicial de la nave, como aparece al iniciar este archivo
 run=True
 while run:
     clock.tick(60)# for all the window!

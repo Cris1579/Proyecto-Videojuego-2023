@@ -7,7 +7,7 @@ screen = pygame.display.set_mode(size)
 
 #Para incluir la imagen
 
-fondo = pygame.image.load("The Moon.jpeg").convert()
+fondo = pygame.image.load("../The Moon.jpeg").convert()
 # .convert() facilita el trabajo para pygame para usar imágenes
 # pygame.image.load() carga una imagen de algún archivo
 # IMPORTANTE: La imagen y el archivo.py deben estar en la misma carpeta
