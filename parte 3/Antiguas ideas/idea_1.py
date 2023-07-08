@@ -35,7 +35,7 @@ muros = [
     pygame.Rect(1000, 200, 100, 300)]
 
 
-personaje = pygame.Rect(600, 400, 50, 50)
+personaje = pygame.Rect(0, 0, 50, 50)
 personaje_vel_x = 0
 personaje_vel_y = 0
 
